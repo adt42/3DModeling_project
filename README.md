@@ -9,6 +9,5 @@ Apr 1 - Creation of Github
 3. [https://dust3r.europe.naverlabs.com/](https://dust3r.europe.naverlabs.com/)
 4. https://medium.com/@popovici.cristina211/3d-reconstruction-from-2d-images-using-openmvg-and-openmvs-b23bc7adb616
 5. https://github.com/gautamkumarjaiswal/3D-Reconstruction/tree/master
-6. https://www.researchgate.net/publication/339009396_A_Review_on_3D_Reconstruction_Techniques_from_2D_Images
 
 Lien Dust3r : https://github.com/naver/dust3r
