@@ -1,3 +1,8 @@
+# Just a little code to try to compare the groundtruh with what we got with Mast3r
+#You need to change th path but you have the example that i used
+#also this code isn't finish because i have a problem with the orientation of the two mesh
+
+
 import pyvista as pv
 import numpy as np
 from ipywidgets import interact
