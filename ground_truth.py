@@ -36,25 +36,24 @@ def extract_data_from_multiblock(multiblock, level=0):
             print(f"{indent}This block is empty.")
             continue
         
-        # Print the type of the block
+     
         print(f"{indent}Block type: {type(block)}")
         
-        # Check if the block is a MultiBlock itself (nested case)
+     
         if isinstance(block, pv.MultiBlock):
             print(f"{indent}This is a nested MultiBlock.")
-            extract_data_from_multiblock(block, level + 1)  # Recursively explore this nested MultiBlock
+            extract_data_from_multiblock(block, level + 1) 
         
-        # If it's a PolyData or other valid type, extract points, etc.
+     
         elif isinstance(block, pv.PolyData):
             print(f"{indent}PolyData: {block.n_points} points, {block.n_cells} cells")
             print(f"{indent}Points:\n{block.points[:]}")
 
-        # Handle other types like UnstructuredGrid
+   
         elif isinstance(block, pv.UnstructuredGrid):
             print(f"{indent}UnstructuredGrid: {block.n_points} points, {block.n_cells} cells")
             print(f"{indent}Points:\n{block.points[:]}")
 
-        # Handle StructuredPoints
         elif isinstance(block, pv.StructuredPoints):
             print(f"{indent}StructuredPoints: Dimensions {block.dimensions}")
         
@@ -63,10 +62,9 @@ def extract_data_from_multiblock(multiblock, level=0):
 
         print(f"{indent}{'='*40}\n")
 
-# Load your GLB or other file
 
 
-# Start recursive extraction from the top level
+
 #extract_data_from_multiblock(multiblock)
 
 
