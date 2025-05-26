@@ -1,3 +1,6 @@
+#This little code is useful to modify directly the model's weight
+#It is not really relevant in general case but very cool for this specific model
+
 import torch
 
 
