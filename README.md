@@ -9,7 +9,7 @@ Apr 1 - Creation of Github
 3. [https://dust3r.europe.naverlabs.com/](https://dust3r.europe.naverlabs.com/)
 4. https://arxiv.org/pdf/2312.14132 （DUSt3R）
 5. https://arxiv.org/pdf/2406.09756 （MASt3R）
-6. https://learnopencv.com/mast3r-sfm-grounding-image-matching-3d/?utm_source=chatgpt.com
+6. https://learnopencv.com/mast3r-sfm-grounding-image-matching-3d
 
 Lien Dust3r : https://github.com/naver/dust3r
 Lien Mast3r : https://github.com/naver/mast3r
